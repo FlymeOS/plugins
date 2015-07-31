@@ -30,7 +30,7 @@
 
 function init(){
 	echo ">>> 正在初始化环境 ...    "
-	cd ..
+	cd ../..
 	source build/envsetup.sh >/dev/null
 	echo "<<< 环境初始化完成！     "
 	cd -

@@ -30,7 +30,7 @@
 
 function init(){
 	echo ">>> Init Environment ...    "
-	cd ..
+	cd ../..
 	source build/envsetup.sh >/dev/null
 	echo "<<< Init Environment Done!  "
 	cd -
